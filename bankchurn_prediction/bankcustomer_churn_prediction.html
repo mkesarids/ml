@@ -1,0 +1,2449 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>2869442df7954fe39aaf879ef6eb40ef</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="introduction-to-neural-networks-bank-churn-prediction"
+class="cell markdown" id="sZX-TuTvLEj8">
+<h1>Introduction to Neural Networks: Bank Churn prediction</h1>
+</section>
+<section id="problem-statement" class="cell markdown" id="Qn7NK9TzmIs2">
+<h2>Problem Statement</h2>
+</section>
+<section id="context" class="cell markdown" id="1UlRz3Oc38eu">
+<h3>Context</h3>
+</section>
+<div class="cell markdown" id="DRX9f5_6HUNP">
+<p>Businesses like banks which provide service have to worry about
+problem of 'Customer Churn' i.e. customers leaving and joining another
+service provider. It is important to understand which aspects of the
+service influence a customer's decision in this regard. Management can
+concentrate efforts on improvement of service, keeping in mind these
+priorities.</p>
+</div>
+<section id="objective" class="cell markdown" id="pOA6e4sV3_IT">
+<h3>Objective</h3>
+</section>
+<div class="cell markdown" id="PSrQdWHCmQh-">
+<p>You as a Data scientist with the bank need to build a neural network
+based classifier that can determine whether a customer will leave the
+bank or not in the next 6 months.</p>
+</div>
+<section id="data-dictionary" class="cell markdown" id="3Hr9AsdC3595">
+<h3>Data Dictionary:</h3>
+</section>
+<div class="cell markdown" id="brhszBMtmWJG">
+<ul>
+<li><p>CustomerId: Unique ID which is assigned to each customer</p></li>
+<li><p>Surname: Last name of the customer</p></li>
+<li><p>CreditScore: It defines the credit history of the
+customer.</p></li>
+<li><p>Geography: A customer’s location</p></li>
+<li><p>Gender: It defines the Gender of the customer</p></li>
+<li><p>Age: Age of the customer</p></li>
+<li><p>Tenure: Number of years for which the customer has been with the
+bank</p></li>
+<li><p>NumOfProducts: refers to the number of products that a customer
+has purchased through the bank.</p></li>
+<li><p>Balance: Account balance</p></li>
+<li><p>HasCrCard: It is a categorical variable which decides whether the
+customer has credit card or not.</p></li>
+<li><p>EstimatedSalary: Estimated salary</p></li>
+<li><p>isActiveMember: Is is a categorical variable which decides
+whether the customer is active member of the bank or not ( Active member
+in the sense, using bank products regularly, making transactions etc
+)</p></li>
+<li><p>Exited : whether or not the customer left the bank within six
+month. It can take two values ** 0=No ( Customer did not leave the bank
+) ** 1=Yes ( Customer left the bank )</p></li>
+</ul>
+</div>
+<section id="importing-necessary-libraries" class="cell markdown"
+id="-cYmf-q8c726">
+<h2>Importing necessary libraries</h2>
+</section>
+<div class="cell code" data-execution_count="1" id="IfeZclzIHUNs">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler, OneHotEncoder</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report, confusion_matrix</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout</span></code></pre></div>
+</div>
+<section id="loading-the-dataset" class="cell markdown"
+id="z7ubXtC8HUOA">
+<h2>Loading the dataset</h2>
+</section>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:223}"
+id="Yi4TCvKrnVA_" data-outputId="609d0726-fedb-4a1f-e82c-a24f2ee444de">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>file_path <span class="op">=</span> <span class="st">&#39;/content/drive/My Drive/mldatasets/Churn.csv&#39;</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(file_path)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Displaying the first few rows of the dataset to verify</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="2">
+
+  <div id="df-862329e3-25d7-4e9d-ad64-ebd0ca99250b" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RowNumber</th>
+      <th>CustomerId</th>
+      <th>Surname</th>
+      <th>CreditScore</th>
+      <th>Geography</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Tenure</th>
+      <th>Balance</th>
+      <th>NumOfProducts</th>
+      <th>HasCrCard</th>
+      <th>IsActiveMember</th>
+      <th>EstimatedSalary</th>
+      <th>Exited</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>15634602</td>
+      <td>Hargrave</td>
+      <td>619</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>42</td>
+      <td>2</td>
+      <td>0.00</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>101348.88</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>15647311</td>
+      <td>Hill</td>
+      <td>608</td>
+      <td>Spain</td>
+      <td>Female</td>
+      <td>41</td>
+      <td>1</td>
+      <td>83807.86</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>112542.58</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>15619304</td>
+      <td>Onio</td>
+      <td>502</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>42</td>
+      <td>8</td>
+      <td>159660.80</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113931.57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>15701354</td>
+      <td>Boni</td>
+      <td>699</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>39</td>
+      <td>1</td>
+      <td>0.00</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>93826.63</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>15737888</td>
+      <td>Mitchell</td>
+      <td>850</td>
+      <td>Spain</td>
+      <td>Female</td>
+      <td>43</td>
+      <td>2</td>
+      <td>125510.82</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>79084.10</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-862329e3-25d7-4e9d-ad64-ebd0ca99250b')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-862329e3-25d7-4e9d-ad64-ebd0ca99250b button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-862329e3-25d7-4e9d-ad64-ebd0ca99250b');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-9740a00b-cf2a-4966-a480-438729e80efc">
+  <button class="colab-df-quickchart" onclick="quickchart('df-9740a00b-cf2a-4966-a480-438729e80efc')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-9740a00b-cf2a-4966-a480-438729e80efc button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="data-overview" class="cell markdown" id="BwaZDbsYf0-N">
+<h2>Data Overview</h2>
+</section>
+<div class="cell code" data-execution_count="3"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="UuT9Do_6nNJH" data-outputId="a7e6e1c4-8a8c-4f3b-f86c-36f6c62cc470">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dataset shape:&quot;</span>, data.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Dataset shape: (10000, 14)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Ax_WycR7n2hX">
+<p>Top rows</p>
+</div>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+id="alHk36lpn4nI" data-outputId="53f824a3-40cb-453b-d8d6-7f1294590b8e">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+
+  <div id="df-2812e4e7-5dad-4b0e-ad60-be5ca22f4ed1" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RowNumber</th>
+      <th>CustomerId</th>
+      <th>Surname</th>
+      <th>CreditScore</th>
+      <th>Geography</th>
+      <th>Gender</th>
+      <th>Age</th>
+      <th>Tenure</th>
+      <th>Balance</th>
+      <th>NumOfProducts</th>
+      <th>HasCrCard</th>
+      <th>IsActiveMember</th>
+      <th>EstimatedSalary</th>
+      <th>Exited</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>15634602</td>
+      <td>Hargrave</td>
+      <td>619</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>42</td>
+      <td>2</td>
+      <td>0.00</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>101348.88</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>15647311</td>
+      <td>Hill</td>
+      <td>608</td>
+      <td>Spain</td>
+      <td>Female</td>
+      <td>41</td>
+      <td>1</td>
+      <td>83807.86</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>112542.58</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>15619304</td>
+      <td>Onio</td>
+      <td>502</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>42</td>
+      <td>8</td>
+      <td>159660.80</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113931.57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>15701354</td>
+      <td>Boni</td>
+      <td>699</td>
+      <td>France</td>
+      <td>Female</td>
+      <td>39</td>
+      <td>1</td>
+      <td>0.00</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>93826.63</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>15737888</td>
+      <td>Mitchell</td>
+      <td>850</td>
+      <td>Spain</td>
+      <td>Female</td>
+      <td>43</td>
+      <td>2</td>
+      <td>125510.82</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>79084.10</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-2812e4e7-5dad-4b0e-ad60-be5ca22f4ed1')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-2812e4e7-5dad-4b0e-ad60-be5ca22f4ed1 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-2812e4e7-5dad-4b0e-ad60-be5ca22f4ed1');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-8ac2ddcb-a5a1-47df-8d9f-05befae2c7fe">
+  <button class="colab-df-quickchart" onclick="quickchart('df-8ac2ddcb-a5a1-47df-8d9f-05befae2c7fe')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-8ac2ddcb-a5a1-47df-8d9f-05befae2c7fe button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="jVAIpnxpn9s6">
+<p>statistics</p>
+</div>
+<div class="cell code" data-execution_count="6"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:394}"
+id="Zn_GNr63n_pj" data-outputId="b404e5fd-e25b-4511-b32c-139d45c111d5">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>data.describe().T</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-9bd6489c-1e5b-4e7e-ac73-c2811c45d910" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>RowNumber</th>
+      <td>10000.0</td>
+      <td>5.000500e+03</td>
+      <td>2886.895680</td>
+      <td>1.00</td>
+      <td>2500.75</td>
+      <td>5.000500e+03</td>
+      <td>7.500250e+03</td>
+      <td>10000.00</td>
+    </tr>
+    <tr>
+      <th>CustomerId</th>
+      <td>10000.0</td>
+      <td>1.569094e+07</td>
+      <td>71936.186123</td>
+      <td>15565701.00</td>
+      <td>15628528.25</td>
+      <td>1.569074e+07</td>
+      <td>1.575323e+07</td>
+      <td>15815690.00</td>
+    </tr>
+    <tr>
+      <th>CreditScore</th>
+      <td>10000.0</td>
+      <td>6.505288e+02</td>
+      <td>96.653299</td>
+      <td>350.00</td>
+      <td>584.00</td>
+      <td>6.520000e+02</td>
+      <td>7.180000e+02</td>
+      <td>850.00</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>10000.0</td>
+      <td>3.892180e+01</td>
+      <td>10.487806</td>
+      <td>18.00</td>
+      <td>32.00</td>
+      <td>3.700000e+01</td>
+      <td>4.400000e+01</td>
+      <td>92.00</td>
+    </tr>
+    <tr>
+      <th>Tenure</th>
+      <td>10000.0</td>
+      <td>5.012800e+00</td>
+      <td>2.892174</td>
+      <td>0.00</td>
+      <td>3.00</td>
+      <td>5.000000e+00</td>
+      <td>7.000000e+00</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <th>Balance</th>
+      <td>10000.0</td>
+      <td>7.648589e+04</td>
+      <td>62397.405202</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>9.719854e+04</td>
+      <td>1.276442e+05</td>
+      <td>250898.09</td>
+    </tr>
+    <tr>
+      <th>NumOfProducts</th>
+      <td>10000.0</td>
+      <td>1.530200e+00</td>
+      <td>0.581654</td>
+      <td>1.00</td>
+      <td>1.00</td>
+      <td>1.000000e+00</td>
+      <td>2.000000e+00</td>
+      <td>4.00</td>
+    </tr>
+    <tr>
+      <th>HasCrCard</th>
+      <td>10000.0</td>
+      <td>7.055000e-01</td>
+      <td>0.455840</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>IsActiveMember</th>
+      <td>10000.0</td>
+      <td>5.151000e-01</td>
+      <td>0.499797</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>1.000000e+00</td>
+      <td>1.000000e+00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>EstimatedSalary</th>
+      <td>10000.0</td>
+      <td>1.000902e+05</td>
+      <td>57510.492818</td>
+      <td>11.58</td>
+      <td>51002.11</td>
+      <td>1.001939e+05</td>
+      <td>1.493882e+05</td>
+      <td>199992.48</td>
+    </tr>
+    <tr>
+      <th>Exited</th>
+      <td>10000.0</td>
+      <td>2.037000e-01</td>
+      <td>0.402769</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.00</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-9bd6489c-1e5b-4e7e-ac73-c2811c45d910')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-9bd6489c-1e5b-4e7e-ac73-c2811c45d910 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-9bd6489c-1e5b-4e7e-ac73-c2811c45d910');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-b240fd4c-f517-4c33-a1ec-1dc9b438f307">
+  <button class="colab-df-quickchart" onclick="quickchart('df-b240fd4c-f517-4c33-a1ec-1dc9b438f307')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-b240fd4c-f517-4c33-a1ec-1dc9b438f307 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="ulJxHXxQoFl7">
+<p>###unique values in categorical columns</p>
+</div>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="DDAdSvNMoPR8" data-outputId="66e6ba58-6737-4cc1-e8ce-8ca8f31c6d15">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>categorical_columns <span class="op">=</span> data.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;object&#39;</span>]).columns</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> categorical_columns:</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss"> has </span><span class="sc">{</span>data[col]<span class="sc">.</span>nunique()<span class="sc">}</span><span class="ss"> unique categories&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Surname has 2932 unique categories
+Geography has 3 unique categories
+Gender has 2 unique categories
+</code></pre>
+</div>
+</div>
+<section id="exploratory-data-analysis" class="cell markdown"
+id="W036jsgwRdVN">
+<h2>Exploratory Data Analysis</h2>
+</section>
+<div class="cell markdown" id="E4AlzoVuMQRK">
+<ul>
+<li>EDA is an important part of any project involving data.</li>
+<li>It is important to investigate and understand the data better before
+building a model with it.</li>
+<li>A few questions have been mentioned below which will help you
+approach the analysis in the right manner and generate insights from the
+data.</li>
+<li>A thorough analysis of the data, in addition to the questions
+mentioned below, should be done.</li>
+</ul>
+</div>
+<div class="cell markdown" id="FoRvJhNMMS_6">
+<p><strong>Questions</strong>:</p>
+<ol>
+<li>What is the distribution of the credit score of customers? Are there
+any noticeable patterns or outliers in the distribution?</li>
+<li>How many active members are there with the bank?</li>
+<li>How are the different customer attributes correlated to each
+other?</li>
+<li>Who is churning more when compared to males and females?<br />
+</li>
+<li>Customers from which geographical part are churning more?</li>
+</ol>
+</div>
+<div class="cell markdown" id="Id0AHoYjocYi">
+<p>What is the distribution of the credit score of customers? Are there
+any noticeable patterns or outliers in the distribution?</p>
+</div>
+<div class="cell code" data-execution_count="8"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:927}"
+id="1-HcZCCBRcCo" data-outputId="60fb96db-fe17-498f-ed50-1d210af4fc62">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Histogram</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;CreditScore&#39;</span>].hist(bins<span class="op">=</span><span class="dv">20</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Credit Scores&#39;</span>)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Credit Score&#39;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Frequency&#39;</span>)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Boxplot</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>plt.boxplot(data[<span class="st">&#39;CreditScore&#39;</span>], vert<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Box Plot of Credit Scores&#39;</span>)</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Credit Score&#39;</span>)</span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1a6c43ea6c0148c08e06b0f74cd188d8/ca08ef6b98d78c6840555444b749d8c7d39757e8.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1a6c43ea6c0148c08e06b0f74cd188d8/e0279cbb7602cdd342829af12ccc64d9a19a7a4b.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="v38tBxJcodto">
+<p>How many active members are there with the bank?</p>
+</div>
+<div class="cell code" data-execution_count="13"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="Za8fL70-ofao" data-outputId="6fbe8837-ccab-440d-c955-3dcc4ed0b7ca">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>active_members <span class="op">=</span> data[<span class="st">&#39;IsActiveMember&#39;</span>].<span class="bu">sum</span>()</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Number of active members: </span><span class="sc">{</span>active_members<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Number of active members: 5151
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="VgdaLXfWo9Nb">
+<p>Correlation Among Customer Attributes</p>
+</div>
+<div class="cell code" data-execution_count="14"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:607}"
+id="-gEWTv1Bo41G" data-outputId="9ee1dfba-1cd4-4e77-ee53-d78bf050755b">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>correlation_matrix <span class="op">=</span> data.corr()</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlation_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Matrix for Numerical Features&#39;</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>&lt;ipython-input-14-5dffe38fc8fb&gt;:1: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  correlation_matrix = data.corr()
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1a6c43ea6c0148c08e06b0f74cd188d8/9ff381bc259e3ef3a87a224061b4bafa3d10a9d7.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="OZ5u0B5JprHT">
+<p>Balance also shows a positive correlation with Exited, implying
+higher balance customers are more prone to churn.</p>
+<ul>
+<li><code>Age</code> seems to have a positive correlation with the
+Exited column, suggesting older customers are more likely to leave.</li>
+<li><code>IsActiveMember</code> has a negative correlation with Exited,
+indicating active members are less likely to leave.</li>
+<li>Balance also shows a positive correlation with Exited, implying
+higher balance customers are more prone to churn.</li>
+</ul>
+</div>
+<div class="cell markdown" id="F3tLRIGCpDCR">
+<p>Churn Rate by Gender</p>
+</div>
+<div class="cell code" data-execution_count="15"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:508}"
+id="0eAkvoaOpGpA" data-outputId="3af365cd-2ed5-4680-cec8-db1ddf3ab99d">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>gender_churn <span class="op">=</span> data.groupby(<span class="st">&#39;Gender&#39;</span>)[<span class="st">&#39;Exited&#39;</span>].mean()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>gender_churn.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Churn Rate by Gender&#39;</span>)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Gender&#39;</span>)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Churn Rate&#39;</span>)</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1a6c43ea6c0148c08e06b0f74cd188d8/b0ab89b66dd81f980d9bff05be8d0b650a1773e6.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="2qet5kRop8HK">
+<p>Churn rate for Females is approximately 25%, while for Males it is
+around 15%</p>
+</div>
+<div class="cell markdown" id="a6g8aPAupJ75">
+<p>Churn Rate by Geographical Location</p>
+</div>
+<div class="cell code" data-execution_count="16"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:522}"
+id="bBXXKu2QpLDL" data-outputId="704a0529-bea8-4654-a469-027f67f68c3d">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>geography_churn <span class="op">=</span> data.groupby(<span class="st">&#39;Geography&#39;</span>)[<span class="st">&#39;Exited&#39;</span>].mean()</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>geography_churn.plot(kind<span class="op">=</span><span class="st">&#39;bar&#39;</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Churn Rate by Geography&#39;</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Geography&#39;</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Churn Rate&#39;</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1a6c43ea6c0148c08e06b0f74cd188d8/896954f7730d78503087044dcc68789f798ea19e.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="YCEwUvTBqGjj">
+<p>Customers in Germany have the highest churn rate compared to those in
+France and Spain.</p>
+</div>
+<section id="data-preprocessing" class="cell markdown"
+id="gnOIzhBenXaZ">
+<h2>Data Preprocessing</h2>
+</section>
+<div class="cell markdown" id="JRI3I162naTr">
+<ul>
+<li>Missing value treatment</li>
+<li>Feature engineering (if needed)</li>
+<li>Outlier detection and treatment (if needed)</li>
+<li>Preparing data for modeling</li>
+<li>Any other preprocessing steps (if needed)</li>
+</ul>
+</div>
+<div class="cell markdown" id="USRjw7-Cq6oX">
+<p>There are no Missing values.</p>
+</div>
+<div class="cell markdown" id="Is2KDcKVqfMc">
+<p>Feature engineering</p>
+</div>
+<div class="cell code" data-execution_count="17"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="vU_6ObCxnYOz" data-outputId="c6fd9537-40c1-4070-de9a-65578ef55af3">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># One-hot encoding for categorical variables</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>one_hot_encoder <span class="op">=</span> OneHotEncoder(sparse<span class="op">=</span><span class="va">False</span>, drop<span class="op">=</span><span class="st">&#39;first&#39;</span>)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>categorical_columns <span class="op">=</span> [<span class="st">&#39;Geography&#39;</span>, <span class="st">&#39;Gender&#39;</span>]</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>data_encoded <span class="op">=</span> pd.DataFrame(one_hot_encoder.fit_transform(data[categorical_columns]))</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>data_encoded.columns <span class="op">=</span> one_hot_encoder.get_feature_names_out(categorical_columns)</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Drop original categorical columns and concatenate the encoded ones</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>data_fe <span class="op">=</span> data.drop(categorical_columns <span class="op">+</span> [<span class="st">&#39;RowNumber&#39;</span>, <span class="st">&#39;CustomerId&#39;</span>, <span class="st">&#39;Surname&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>data_fe <span class="op">=</span> pd.concat([data_fe, data_encoded], axis<span class="op">=</span><span class="dv">1</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/usr/local/lib/python3.10/dist-packages/sklearn/preprocessing/_encoders.py:868: FutureWarning: `sparse` was renamed to `sparse_output` in version 1.2 and will be removed in 1.4. `sparse_output` is ignored unless you leave `sparse` to its default value.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Ih7QvcNSrc6g">
+<p>Preparing Data for Modeling</p>
+</div>
+<div class="cell code" data-execution_count="20" id="7Z6k6OmKrg3h">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting the data into features and target</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> data_fe.drop(<span class="st">&#39;Exited&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data_fe[<span class="st">&#39;Exited&#39;</span>]</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting data into training and test sets</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Scaling numerical features</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>X_train[numerical_cols] <span class="op">=</span> scaler.fit_transform(X_train[numerical_cols])</span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>X_test[numerical_cols] <span class="op">=</span> scaler.transform(X_test[numerical_cols])</span></code></pre></div>
+</div>
+<section id="model-building" class="cell markdown" id="7eWct2L10DUm">
+<h2>Model Building</h2>
+</section>
+<section id="model-evaluation-criterion" class="cell markdown"
+id="JGlB5Y8_nkC7">
+<h3>Model Evaluation Criterion</h3>
+</section>
+<div class="cell markdown" id="87dpNRYhpHfm">
+<ul>
+<li></li>
+</ul>
+</div>
+<section id="model-building-neural-network" class="cell markdown"
+id="m-_JBupNHUPw">
+<h3>Model Building: Neural Network</h3>
+</section>
+<div class="cell code" data-execution_count="21" id="y3aDaCPDRm9T">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="22"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="ee467EY5s03j" data-outputId="90f08b65-355d-4058-fa0f-f57438e94fe0">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the model</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Input layer and first hidden layer</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(X_train.shape[<span class="dv">1</span>],)))</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional hidden layer</span></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding a dropout layer to prevent overfitting</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.2</span>))</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Output layer</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model</span></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the model</span></span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 16)                192       
+                                                                 
+ dense_1 (Dense)             (None, 8)                 136       
+                                                                 
+ dropout (Dropout)           (None, 8)                 0         
+                                                                 
+ dense_2 (Dense)             (None, 1)                 9         
+                                                                 
+=================================================================
+Total params: 337 (1.32 KB)
+Trainable params: 337 (1.32 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="23"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="_IzDTnMJs_fB" data-outputId="ea27fff2-b867-4b80-d96d-da46365705dd">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the model</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(X_train, y_train, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.2</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+200/200 [==============================] - 6s 15ms/step - loss: 0.5414 - accuracy: 0.7559 - val_loss: 0.4574 - val_accuracy: 0.8000
+Epoch 2/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.4726 - accuracy: 0.7911 - val_loss: 0.4218 - val_accuracy: 0.8175
+Epoch 3/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.4426 - accuracy: 0.8019 - val_loss: 0.3992 - val_accuracy: 0.8344
+Epoch 4/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.4260 - accuracy: 0.8195 - val_loss: 0.3844 - val_accuracy: 0.8406
+Epoch 5/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.4167 - accuracy: 0.8245 - val_loss: 0.3770 - val_accuracy: 0.8413
+Epoch 6/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.4036 - accuracy: 0.8286 - val_loss: 0.3699 - val_accuracy: 0.8475
+Epoch 7/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.4049 - accuracy: 0.8348 - val_loss: 0.3657 - val_accuracy: 0.8475
+Epoch 8/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3915 - accuracy: 0.8344 - val_loss: 0.3633 - val_accuracy: 0.8481
+Epoch 9/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3909 - accuracy: 0.8392 - val_loss: 0.3613 - val_accuracy: 0.8475
+Epoch 10/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3868 - accuracy: 0.8391 - val_loss: 0.3584 - val_accuracy: 0.8494
+Epoch 11/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3796 - accuracy: 0.8433 - val_loss: 0.3568 - val_accuracy: 0.8469
+Epoch 12/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3776 - accuracy: 0.8470 - val_loss: 0.3561 - val_accuracy: 0.8494
+Epoch 13/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3717 - accuracy: 0.8470 - val_loss: 0.3541 - val_accuracy: 0.8487
+Epoch 14/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3721 - accuracy: 0.8475 - val_loss: 0.3527 - val_accuracy: 0.8494
+Epoch 15/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3705 - accuracy: 0.8478 - val_loss: 0.3507 - val_accuracy: 0.8487
+Epoch 16/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3636 - accuracy: 0.8477 - val_loss: 0.3509 - val_accuracy: 0.8519
+Epoch 17/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3692 - accuracy: 0.8494 - val_loss: 0.3491 - val_accuracy: 0.8506
+Epoch 18/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3649 - accuracy: 0.8519 - val_loss: 0.3489 - val_accuracy: 0.8487
+Epoch 19/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3622 - accuracy: 0.8523 - val_loss: 0.3490 - val_accuracy: 0.8525
+Epoch 20/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3614 - accuracy: 0.8555 - val_loss: 0.3479 - val_accuracy: 0.8475
+Epoch 21/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3649 - accuracy: 0.8487 - val_loss: 0.3462 - val_accuracy: 0.8506
+Epoch 22/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3595 - accuracy: 0.8527 - val_loss: 0.3460 - val_accuracy: 0.8481
+Epoch 23/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3603 - accuracy: 0.8514 - val_loss: 0.3476 - val_accuracy: 0.8544
+Epoch 24/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3554 - accuracy: 0.8577 - val_loss: 0.3438 - val_accuracy: 0.8487
+Epoch 25/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3606 - accuracy: 0.8530 - val_loss: 0.3440 - val_accuracy: 0.8475
+Epoch 26/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3566 - accuracy: 0.8542 - val_loss: 0.3446 - val_accuracy: 0.8494
+Epoch 27/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3579 - accuracy: 0.8547 - val_loss: 0.3435 - val_accuracy: 0.8481
+Epoch 28/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3574 - accuracy: 0.8544 - val_loss: 0.3445 - val_accuracy: 0.8500
+Epoch 29/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3522 - accuracy: 0.8570 - val_loss: 0.3435 - val_accuracy: 0.8506
+Epoch 30/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3538 - accuracy: 0.8567 - val_loss: 0.3437 - val_accuracy: 0.8544
+Epoch 31/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3516 - accuracy: 0.8567 - val_loss: 0.3428 - val_accuracy: 0.8500
+Epoch 32/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3506 - accuracy: 0.8561 - val_loss: 0.3421 - val_accuracy: 0.8519
+Epoch 33/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3547 - accuracy: 0.8562 - val_loss: 0.3418 - val_accuracy: 0.8494
+Epoch 34/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3536 - accuracy: 0.8552 - val_loss: 0.3417 - val_accuracy: 0.8506
+Epoch 35/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3486 - accuracy: 0.8552 - val_loss: 0.3408 - val_accuracy: 0.8512
+Epoch 36/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3500 - accuracy: 0.8591 - val_loss: 0.3422 - val_accuracy: 0.8525
+Epoch 37/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3488 - accuracy: 0.8573 - val_loss: 0.3421 - val_accuracy: 0.8544
+Epoch 38/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3487 - accuracy: 0.8552 - val_loss: 0.3427 - val_accuracy: 0.8525
+Epoch 39/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3448 - accuracy: 0.8606 - val_loss: 0.3405 - val_accuracy: 0.8506
+Epoch 40/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3494 - accuracy: 0.8589 - val_loss: 0.3415 - val_accuracy: 0.8512
+Epoch 41/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3481 - accuracy: 0.8556 - val_loss: 0.3411 - val_accuracy: 0.8506
+Epoch 42/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3458 - accuracy: 0.8578 - val_loss: 0.3408 - val_accuracy: 0.8537
+Epoch 43/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3435 - accuracy: 0.8580 - val_loss: 0.3410 - val_accuracy: 0.8512
+Epoch 44/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3425 - accuracy: 0.8594 - val_loss: 0.3413 - val_accuracy: 0.8506
+Epoch 45/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3459 - accuracy: 0.8558 - val_loss: 0.3407 - val_accuracy: 0.8506
+Epoch 46/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3441 - accuracy: 0.8623 - val_loss: 0.3412 - val_accuracy: 0.8494
+Epoch 47/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3434 - accuracy: 0.8583 - val_loss: 0.3422 - val_accuracy: 0.8519
+Epoch 48/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3392 - accuracy: 0.8617 - val_loss: 0.3414 - val_accuracy: 0.8500
+Epoch 49/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3439 - accuracy: 0.8572 - val_loss: 0.3423 - val_accuracy: 0.8487
+Epoch 50/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3433 - accuracy: 0.8587 - val_loss: 0.3421 - val_accuracy: 0.8519
+Epoch 51/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3383 - accuracy: 0.8572 - val_loss: 0.3420 - val_accuracy: 0.8537
+Epoch 52/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3404 - accuracy: 0.8602 - val_loss: 0.3426 - val_accuracy: 0.8537
+Epoch 53/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3394 - accuracy: 0.8616 - val_loss: 0.3440 - val_accuracy: 0.8475
+Epoch 54/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3390 - accuracy: 0.8619 - val_loss: 0.3461 - val_accuracy: 0.8525
+Epoch 55/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3411 - accuracy: 0.8636 - val_loss: 0.3421 - val_accuracy: 0.8512
+Epoch 56/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3374 - accuracy: 0.8614 - val_loss: 0.3423 - val_accuracy: 0.8519
+Epoch 57/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3379 - accuracy: 0.8589 - val_loss: 0.3433 - val_accuracy: 0.8494
+Epoch 58/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3384 - accuracy: 0.8589 - val_loss: 0.3436 - val_accuracy: 0.8500
+Epoch 59/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3393 - accuracy: 0.8598 - val_loss: 0.3427 - val_accuracy: 0.8537
+Epoch 60/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3394 - accuracy: 0.8598 - val_loss: 0.3441 - val_accuracy: 0.8494
+Epoch 61/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3411 - accuracy: 0.8594 - val_loss: 0.3424 - val_accuracy: 0.8500
+Epoch 62/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3330 - accuracy: 0.8611 - val_loss: 0.3423 - val_accuracy: 0.8519
+Epoch 63/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3446 - accuracy: 0.8564 - val_loss: 0.3429 - val_accuracy: 0.8531
+Epoch 64/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3373 - accuracy: 0.8598 - val_loss: 0.3420 - val_accuracy: 0.8556
+Epoch 65/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3369 - accuracy: 0.8606 - val_loss: 0.3425 - val_accuracy: 0.8487
+Epoch 66/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3368 - accuracy: 0.8616 - val_loss: 0.3443 - val_accuracy: 0.8544
+Epoch 67/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3353 - accuracy: 0.8602 - val_loss: 0.3429 - val_accuracy: 0.8519
+Epoch 68/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3381 - accuracy: 0.8595 - val_loss: 0.3419 - val_accuracy: 0.8562
+Epoch 69/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3334 - accuracy: 0.8612 - val_loss: 0.3421 - val_accuracy: 0.8519
+Epoch 70/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3331 - accuracy: 0.8661 - val_loss: 0.3426 - val_accuracy: 0.8525
+Epoch 71/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3373 - accuracy: 0.8605 - val_loss: 0.3425 - val_accuracy: 0.8544
+Epoch 72/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3341 - accuracy: 0.8637 - val_loss: 0.3427 - val_accuracy: 0.8531
+Epoch 73/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3326 - accuracy: 0.8641 - val_loss: 0.3445 - val_accuracy: 0.8550
+Epoch 74/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3354 - accuracy: 0.8620 - val_loss: 0.3431 - val_accuracy: 0.8512
+Epoch 75/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3353 - accuracy: 0.8612 - val_loss: 0.3420 - val_accuracy: 0.8544
+Epoch 76/100
+200/200 [==============================] - 1s 4ms/step - loss: 0.3369 - accuracy: 0.8605 - val_loss: 0.3432 - val_accuracy: 0.8512
+Epoch 77/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3344 - accuracy: 0.8617 - val_loss: 0.3436 - val_accuracy: 0.8544
+Epoch 78/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3344 - accuracy: 0.8608 - val_loss: 0.3430 - val_accuracy: 0.8512
+Epoch 79/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3316 - accuracy: 0.8633 - val_loss: 0.3437 - val_accuracy: 0.8537
+Epoch 80/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3362 - accuracy: 0.8642 - val_loss: 0.3450 - val_accuracy: 0.8531
+Epoch 81/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3331 - accuracy: 0.8637 - val_loss: 0.3441 - val_accuracy: 0.8531
+Epoch 82/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3300 - accuracy: 0.8655 - val_loss: 0.3435 - val_accuracy: 0.8550
+Epoch 83/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3326 - accuracy: 0.8625 - val_loss: 0.3440 - val_accuracy: 0.8537
+Epoch 84/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3289 - accuracy: 0.8687 - val_loss: 0.3455 - val_accuracy: 0.8500
+Epoch 85/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3353 - accuracy: 0.8627 - val_loss: 0.3445 - val_accuracy: 0.8512
+Epoch 86/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3290 - accuracy: 0.8655 - val_loss: 0.3446 - val_accuracy: 0.8500
+Epoch 87/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3347 - accuracy: 0.8627 - val_loss: 0.3446 - val_accuracy: 0.8537
+Epoch 88/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3313 - accuracy: 0.8625 - val_loss: 0.3440 - val_accuracy: 0.8544
+Epoch 89/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3313 - accuracy: 0.8587 - val_loss: 0.3466 - val_accuracy: 0.8519
+Epoch 90/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3328 - accuracy: 0.8627 - val_loss: 0.3441 - val_accuracy: 0.8550
+Epoch 91/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3324 - accuracy: 0.8647 - val_loss: 0.3443 - val_accuracy: 0.8550
+Epoch 92/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3302 - accuracy: 0.8622 - val_loss: 0.3440 - val_accuracy: 0.8531
+Epoch 93/100
+200/200 [==============================] - 1s 6ms/step - loss: 0.3286 - accuracy: 0.8619 - val_loss: 0.3449 - val_accuracy: 0.8556
+Epoch 94/100
+200/200 [==============================] - 1s 6ms/step - loss: 0.3315 - accuracy: 0.8659 - val_loss: 0.3436 - val_accuracy: 0.8525
+Epoch 95/100
+200/200 [==============================] - 2s 8ms/step - loss: 0.3311 - accuracy: 0.8625 - val_loss: 0.3444 - val_accuracy: 0.8525
+Epoch 96/100
+200/200 [==============================] - 2s 7ms/step - loss: 0.3344 - accuracy: 0.8620 - val_loss: 0.3436 - val_accuracy: 0.8550
+Epoch 97/100
+200/200 [==============================] - 1s 7ms/step - loss: 0.3324 - accuracy: 0.8644 - val_loss: 0.3448 - val_accuracy: 0.8544
+Epoch 98/100
+200/200 [==============================] - 2s 11ms/step - loss: 0.3323 - accuracy: 0.8630 - val_loss: 0.3436 - val_accuracy: 0.8556
+Epoch 99/100
+200/200 [==============================] - 1s 5ms/step - loss: 0.3334 - accuracy: 0.8619 - val_loss: 0.3441 - val_accuracy: 0.8544
+Epoch 100/100
+200/200 [==============================] - 1s 3ms/step - loss: 0.3309 - accuracy: 0.8637 - val_loss: 0.3439 - val_accuracy: 0.8562
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="UhAo_rFFtXbT">
+<p>Model Evaluation</p>
+</div>
+<div class="cell code" data-execution_count="24"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="pNSTvPVPtWYZ" data-outputId="7bb1868f-2bc6-4123-c28f-d2fb8b065d48">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the model on the test set</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>loss, accuracy <span class="op">=</span> model.evaluate(X_test, y_test)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Test Loss: </span><span class="sc">{</span>loss<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Test Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>63/63 [==============================] - 1s 3ms/step - loss: 0.3437 - accuracy: 0.8570
+Test Loss: 0.3437
+Test Accuracy: 0.8570
+</code></pre>
+</div>
+</div>
+<section id="model-building-neural-network-model-with-adam-optimizer"
+class="cell markdown" id="IciEK79v7GCm">
+<h3>Model Building: Neural Network model with Adam Optimizer</h3>
+</section>
+<div class="cell code" data-execution_count="25"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="CkzWYhkOc73J" data-outputId="460fbc27-0055-4912-d28a-029468d6bdc7">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the model</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Input layer and first hidden layer</span></span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(X_train.shape[<span class="dv">1</span>],)))</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional hidden layer</span></span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding a dropout layer to prevent overfitting</span></span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.2</span>))</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Output layer</span></span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model using Adam optimizer</span></span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the model</span></span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_1&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_3 (Dense)             (None, 16)                192       
+                                                                 
+ dense_4 (Dense)             (None, 8)                 136       
+                                                                 
+ dropout_1 (Dropout)         (None, 8)                 0         
+                                                                 
+ dense_5 (Dense)             (None, 1)                 9         
+                                                                 
+=================================================================
+Total params: 337 (1.32 KB)
+Trainable params: 337 (1.32 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<section id="model-improvement-neural-network-model-with-dropout"
+class="cell markdown" id="GGwttEsryEtG">
+<h3>Model Improvement: Neural Network model with Dropout</h3>
+</section>
+<div class="cell code" data-execution_count="26"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="kshTKtZWyFk8" data-outputId="816f5c55-0839-47dd-ba09-a4b05e3f5ef5">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the model</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Input layer and first hidden layer with dropout</span></span>
+<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(X_train.shape[<span class="dv">1</span>],)))</span>
+<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.2</span>))  <span class="co"># Adding dropout with 20% rate</span></span>
+<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-12"><a href="#cb29-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Additional hidden layer with dropout</span></span>
+<span id="cb29-13"><a href="#cb29-13" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">8</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb29-14"><a href="#cb29-14" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.2</span>))  <span class="co"># Adding dropout with 20% rate</span></span>
+<span id="cb29-15"><a href="#cb29-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-16"><a href="#cb29-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Output layer</span></span>
+<span id="cb29-17"><a href="#cb29-17" aria-hidden="true" tabindex="-1"></a>model.add(Dense(units<span class="op">=</span><span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb29-18"><a href="#cb29-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-19"><a href="#cb29-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model using Adam optimizer</span></span>
+<span id="cb29-20"><a href="#cb29-20" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb29-21"><a href="#cb29-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb29-22"><a href="#cb29-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the model</span></span>
+<span id="cb29-23"><a href="#cb29-23" aria-hidden="true" tabindex="-1"></a>model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_2&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_6 (Dense)             (None, 16)                192       
+                                                                 
+ dropout_2 (Dropout)         (None, 16)                0         
+                                                                 
+ dense_7 (Dense)             (None, 8)                 136       
+                                                                 
+ dropout_3 (Dropout)         (None, 8)                 0         
+                                                                 
+ dense_8 (Dense)             (None, 1)                 9         
+                                                                 
+=================================================================
+Total params: 337 (1.32 KB)
+Trainable params: 337 (1.32 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<section
+id="model-improvement-neural-network-model-with-hyperparameter-tuning"
+class="cell markdown" id="g2TsEYy_pstz">
+<h3>Model Improvement: Neural Network model with Hyperparameter
+tuning</h3>
+</section>
+<div class="cell code" data-execution_count="27" id="5C3Eh9w5c73L">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># function that creates a model with different hyperparameters:</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> build_model(n_layers, n_units, dropout_rate, learning_rate):</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> Sequential()</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(n_units, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(X_train.shape[<span class="dv">1</span>],)))</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>    model.add(Dropout(dropout_rate))</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> _ <span class="kw">in</span> <span class="bu">range</span>(n_layers <span class="op">-</span> <span class="dv">1</span>):</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        model.add(Dense(n_units, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>        model.add(Dropout(dropout_rate))</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>    model.add(Dense(<span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>    optimizer <span class="op">=</span> tf.keras.optimizers.Adam(learning_rate<span class="op">=</span>learning_rate)</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a>    model.<span class="bu">compile</span>(optimizer<span class="op">=</span>optimizer, loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="33"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="cDtjQcWxuPh5" data-outputId="2fe6337a-3594-4bd0-a5d9-2d20f0fa7df5">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example set of hyperparameters</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>n_layers <span class="op">=</span> [<span class="dv">2</span>,  <span class="dv">4</span>]</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>n_units <span class="op">=</span> [<span class="dv">8</span>, <span class="dv">16</span>]</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>dropout_rates <span class="op">=</span> [<span class="fl">0.2</span>, <span class="fl">0.5</span>]</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>learning_rates <span class="op">=</span> [ <span class="fl">0.01</span>, <span class="fl">0.1</span>]</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Iterate over combinations (example)</span></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> layers <span class="kw">in</span> n_layers:</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> units <span class="kw">in</span> n_units:</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> dropout <span class="kw">in</span> dropout_rates:</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> lr <span class="kw">in</span> learning_rates:</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>                model <span class="op">=</span> build_model(layers, units, dropout, lr)</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="ss">f&quot;Training model with </span><span class="sc">{</span>layers<span class="sc">}</span><span class="ss"> layers, </span><span class="sc">{</span>units<span class="sc">}</span><span class="ss"> units, dropout </span><span class="sc">{</span>dropout<span class="sc">}</span><span class="ss">, learning rate </span><span class="sc">{</span>lr<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>                history <span class="op">=</span> model.fit(X_train, y_train, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.2</span>, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a>                loss, accuracy <span class="op">=</span> model.evaluate(X_test, y_test, verbose<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a>                <span class="bu">print</span>(<span class="ss">f&quot;Test Accuracy: </span><span class="sc">{</span>accuracy<span class="sc">:.4f}</span><span class="ss">, Test Loss: </span><span class="sc">{</span>loss<span class="sc">:.4f}</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Training model with 2 layers, 8 units, dropout 0.2, learning rate 0.01
+Test Accuracy: 0.8570, Test Loss: 0.3426
+
+Training model with 2 layers, 8 units, dropout 0.2, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4281
+
+Training model with 2 layers, 8 units, dropout 0.5, learning rate 0.01
+Test Accuracy: 0.8280, Test Loss: 0.3692
+
+Training model with 2 layers, 8 units, dropout 0.5, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.5043
+
+Training model with 2 layers, 16 units, dropout 0.2, learning rate 0.01
+Test Accuracy: 0.8615, Test Loss: 0.3417
+
+Training model with 2 layers, 16 units, dropout 0.2, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4977
+
+Training model with 2 layers, 16 units, dropout 0.5, learning rate 0.01
+Test Accuracy: 0.8560, Test Loss: 0.3568
+
+Training model with 2 layers, 16 units, dropout 0.5, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4962
+
+Training model with 4 layers, 8 units, dropout 0.2, learning rate 0.01
+Test Accuracy: 0.8440, Test Loss: 0.3919
+
+Training model with 4 layers, 8 units, dropout 0.2, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.5006
+
+Training model with 4 layers, 8 units, dropout 0.5, learning rate 0.01
+Test Accuracy: 0.8035, Test Loss: 0.4006
+
+Training model with 4 layers, 8 units, dropout 0.5, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4965
+
+Training model with 4 layers, 16 units, dropout 0.2, learning rate 0.01
+Test Accuracy: 0.8600, Test Loss: 0.3447
+
+Training model with 4 layers, 16 units, dropout 0.2, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4970
+
+Training model with 4 layers, 16 units, dropout 0.5, learning rate 0.01
+Test Accuracy: 0.8035, Test Loss: 0.4519
+
+Training model with 4 layers, 16 units, dropout 0.5, learning rate 0.1
+Test Accuracy: 0.8035, Test Loss: 0.4956
+
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="2kXlN2GC0UCm">
+<p>imbalance data treatement</p>
+</div>
+<div class="cell code" data-execution_count="34"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="jmdlZdIN0bG_" data-outputId="1d97a9e4-038b-439f-adac-7acf47e4bc5b">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install imbalanced<span class="op">-</span>learn</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> imblearn.over_sampling <span class="im">import</span> SMOTE</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming X and y are your features and target variable from the churn dataset</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> data_fe.drop(<span class="st">&#39;Exited&#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)  <span class="co"># data_fe is your preprocessed data</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> data_fe[<span class="st">&#39;Exited&#39;</span>]</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Splitting the data into training and testing sets</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Balancing the training data using SMOTE</span></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>smote <span class="op">=</span> SMOTE()</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>X_train_balanced, y_train_balanced <span class="op">=</span> smote.fit_resample(X_train, y_train)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: imbalanced-learn in /usr/local/lib/python3.10/dist-packages (0.10.1)
+Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.10/dist-packages (from imbalanced-learn) (1.23.5)
+Requirement already satisfied: scipy&gt;=1.3.2 in /usr/local/lib/python3.10/dist-packages (from imbalanced-learn) (1.11.3)
+Requirement already satisfied: scikit-learn&gt;=1.0.2 in /usr/local/lib/python3.10/dist-packages (from imbalanced-learn) (1.2.2)
+Requirement already satisfied: joblib&gt;=1.1.1 in /usr/local/lib/python3.10/dist-packages (from imbalanced-learn) (1.3.2)
+Requirement already satisfied: threadpoolctl&gt;=2.0.0 in /usr/local/lib/python3.10/dist-packages (from imbalanced-learn) (3.2.0)
+</code></pre>
+</div>
+</div>
+<section id="final-model" class="cell markdown" id="vqIYgOxCySs3">
+<h2>Final Model</h2>
+</section>
+<div class="cell markdown" id="jspwhNAjzkrF">
+<p>Looks below hperparameter provided better accuracy.</p>
+<ul>
+<li>2 layers</li>
+<li>16 units per layer</li>
+<li>Dropout rate of 0.2</li>
+<li>Learning rate of 0.01</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="35"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="tU5sHXiPyTYB" data-outputId="a2abf270-828f-4eaf-9555-319f47432039">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Final Model Construction</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>final_model <span class="op">=</span> Sequential()</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Input layer and first hidden layer with dropout</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>final_model.add(Dense(units<span class="op">=</span><span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>, input_shape<span class="op">=</span>(X_train.shape[<span class="dv">1</span>],)))</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>final_model.add(Dropout(<span class="fl">0.2</span>))  <span class="co"># Adding dropout with 20% rate</span></span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Second hidden layer with dropout</span></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>final_model.add(Dense(units<span class="op">=</span><span class="dv">16</span>, activation<span class="op">=</span><span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a>final_model.add(Dropout(<span class="fl">0.2</span>))  <span class="co"># Adding dropout with 20% rate</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Output layer</span></span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>final_model.add(Dense(units<span class="op">=</span><span class="dv">1</span>, activation<span class="op">=</span><span class="st">&#39;sigmoid&#39;</span>))</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Compile the model using Adam optimizer with a learning rate of 0.01</span></span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>final_model.<span class="bu">compile</span>(optimizer<span class="op">=</span>tf.keras.optimizers.Adam(learning_rate<span class="op">=</span><span class="fl">0.01</span>), loss<span class="op">=</span><span class="st">&#39;binary_crossentropy&#39;</span>, metrics<span class="op">=</span>[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Summary of the final model</span></span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>final_model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_45&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_161 (Dense)           (None, 16)                192       
+                                                                 
+ dropout_114 (Dropout)       (None, 16)                0         
+                                                                 
+ dense_162 (Dense)           (None, 16)                272       
+                                                                 
+ dropout_115 (Dropout)       (None, 16)                0         
+                                                                 
+ dense_163 (Dense)           (None, 1)                 17        
+                                                                 
+=================================================================
+Total params: 481 (1.88 KB)
+Trainable params: 481 (1.88 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="36"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="4cCIaxQxz9V4" data-outputId="6a5ca268-c555-47d3-d6f8-96c19a27bfbb">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Training the final model</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>final_history <span class="op">=</span> final_model.fit(X_train_balanced, y_train_balanced, epochs<span class="op">=</span><span class="dv">100</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.2</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/100
+318/318 [==============================] - 2s 4ms/step - loss: 364.7039 - accuracy: 0.5922 - val_loss: 1.0078 - val_accuracy: 0.0000e+00
+Epoch 2/100
+318/318 [==============================] - 3s 10ms/step - loss: 3.2739 - accuracy: 0.6123 - val_loss: 0.9663 - val_accuracy: 0.0000e+00
+Epoch 3/100
+318/318 [==============================] - 3s 10ms/step - loss: 1.7975 - accuracy: 0.6157 - val_loss: 0.9966 - val_accuracy: 0.0000e+00
+Epoch 4/100
+318/318 [==============================] - 4s 11ms/step - loss: 1.2058 - accuracy: 0.6185 - val_loss: 0.9538 - val_accuracy: 0.0000e+00
+Epoch 5/100
+318/318 [==============================] - 3s 9ms/step - loss: 0.9306 - accuracy: 0.6218 - val_loss: 0.9957 - val_accuracy: 0.0000e+00
+Epoch 6/100
+318/318 [==============================] - 2s 7ms/step - loss: 0.8673 - accuracy: 0.6229 - val_loss: 1.0189 - val_accuracy: 0.0000e+00
+Epoch 7/100
+318/318 [==============================] - 2s 6ms/step - loss: 0.7340 - accuracy: 0.6235 - val_loss: 0.9509 - val_accuracy: 0.0000e+00
+Epoch 8/100
+318/318 [==============================] - 3s 9ms/step - loss: 0.7360 - accuracy: 0.6250 - val_loss: 0.9819 - val_accuracy: 0.0000e+00
+Epoch 9/100
+318/318 [==============================] - 2s 7ms/step - loss: 0.6771 - accuracy: 0.6232 - val_loss: 1.0162 - val_accuracy: 0.0000e+00
+Epoch 10/100
+318/318 [==============================] - 4s 13ms/step - loss: 0.6626 - accuracy: 0.6250 - val_loss: 0.9831 - val_accuracy: 0.0000e+00
+Epoch 11/100
+318/318 [==============================] - 3s 11ms/step - loss: 0.6621 - accuracy: 0.6245 - val_loss: 0.9818 - val_accuracy: 0.0000e+00
+Epoch 12/100
+318/318 [==============================] - 2s 8ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 0.9744 - val_accuracy: 0.0000e+00
+Epoch 13/100
+318/318 [==============================] - 2s 8ms/step - loss: 0.6625 - accuracy: 0.6246 - val_loss: 0.9933 - val_accuracy: 0.0000e+00
+Epoch 14/100
+318/318 [==============================] - 3s 9ms/step - loss: 0.6619 - accuracy: 0.6249 - val_loss: 0.9882 - val_accuracy: 0.0000e+00
+Epoch 15/100
+318/318 [==============================] - 2s 6ms/step - loss: 0.6618 - accuracy: 0.6249 - val_loss: 0.9626 - val_accuracy: 0.0000e+00
+Epoch 16/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6622 - accuracy: 0.6250 - val_loss: 0.9951 - val_accuracy: 0.0000e+00
+Epoch 17/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6628 - accuracy: 0.6248 - val_loss: 0.9760 - val_accuracy: 0.0000e+00
+Epoch 18/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6616 - accuracy: 0.6252 - val_loss: 0.9738 - val_accuracy: 0.0000e+00
+Epoch 19/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6620 - accuracy: 0.6247 - val_loss: 0.9958 - val_accuracy: 0.0000e+00
+Epoch 20/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6251 - val_loss: 0.9933 - val_accuracy: 0.0000e+00
+Epoch 21/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9677 - val_accuracy: 0.0000e+00
+Epoch 22/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6620 - accuracy: 0.6250 - val_loss: 0.9805 - val_accuracy: 0.0000e+00
+Epoch 23/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9633 - val_accuracy: 0.0000e+00
+Epoch 24/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6639 - accuracy: 0.6249 - val_loss: 0.9702 - val_accuracy: 0.0000e+00
+Epoch 25/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6249 - val_loss: 0.9422 - val_accuracy: 0.0000e+00
+Epoch 26/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 0.9785 - val_accuracy: 0.0000e+00
+Epoch 27/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9857 - val_accuracy: 0.0000e+00
+Epoch 28/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9914 - val_accuracy: 0.0000e+00
+Epoch 29/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9741 - val_accuracy: 0.0000e+00
+Epoch 30/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 0.9762 - val_accuracy: 0.0000e+00
+Epoch 31/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 1.0408 - val_accuracy: 0.0000e+00
+Epoch 32/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 1.0248 - val_accuracy: 0.0000e+00
+Epoch 33/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6620 - accuracy: 0.6250 - val_loss: 0.9925 - val_accuracy: 0.0000e+00
+Epoch 34/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9536 - val_accuracy: 0.0000e+00
+Epoch 35/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9512 - val_accuracy: 0.0000e+00
+Epoch 36/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9584 - val_accuracy: 0.0000e+00
+Epoch 37/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9741 - val_accuracy: 0.0000e+00
+Epoch 38/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9677 - val_accuracy: 0.0000e+00
+Epoch 39/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9887 - val_accuracy: 0.0000e+00
+Epoch 40/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6614 - accuracy: 0.6250 - val_loss: 1.0054 - val_accuracy: 0.0000e+00
+Epoch 41/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9541 - val_accuracy: 0.0000e+00
+Epoch 42/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6613 - accuracy: 0.6250 - val_loss: 0.9347 - val_accuracy: 0.0000e+00
+Epoch 43/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6620 - accuracy: 0.6250 - val_loss: 0.9846 - val_accuracy: 0.0000e+00
+Epoch 44/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9742 - val_accuracy: 0.0000e+00
+Epoch 45/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9885 - val_accuracy: 0.0000e+00
+Epoch 46/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 1.0235 - val_accuracy: 0.0000e+00
+Epoch 47/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 1.0004 - val_accuracy: 0.0000e+00
+Epoch 48/100
+318/318 [==============================] - 1s 5ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9827 - val_accuracy: 0.0000e+00
+Epoch 49/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9473 - val_accuracy: 0.0000e+00
+Epoch 50/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 1.0011 - val_accuracy: 0.0000e+00
+Epoch 51/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9219 - val_accuracy: 0.0000e+00
+Epoch 52/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6621 - accuracy: 0.6250 - val_loss: 0.9627 - val_accuracy: 0.0000e+00
+Epoch 53/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9846 - val_accuracy: 0.0000e+00
+Epoch 54/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6613 - accuracy: 0.6250 - val_loss: 0.9617 - val_accuracy: 0.0000e+00
+Epoch 55/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 1.0194 - val_accuracy: 0.0000e+00
+Epoch 56/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6614 - accuracy: 0.6250 - val_loss: 0.9587 - val_accuracy: 0.0000e+00
+Epoch 57/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9673 - val_accuracy: 0.0000e+00
+Epoch 58/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9663 - val_accuracy: 0.0000e+00
+Epoch 59/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9910 - val_accuracy: 0.0000e+00
+Epoch 60/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9607 - val_accuracy: 0.0000e+00
+Epoch 61/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9905 - val_accuracy: 0.0000e+00
+Epoch 62/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9472 - val_accuracy: 0.0000e+00
+Epoch 63/100
+318/318 [==============================] - 1s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9491 - val_accuracy: 0.0000e+00
+Epoch 64/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9727 - val_accuracy: 0.0000e+00
+Epoch 65/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6613 - accuracy: 0.6250 - val_loss: 0.9871 - val_accuracy: 0.0000e+00
+Epoch 66/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9855 - val_accuracy: 0.0000e+00
+Epoch 67/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9469 - val_accuracy: 0.0000e+00
+Epoch 68/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9689 - val_accuracy: 0.0000e+00
+Epoch 69/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9543 - val_accuracy: 0.0000e+00
+Epoch 70/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 1.0372 - val_accuracy: 0.0000e+00
+Epoch 71/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9764 - val_accuracy: 0.0000e+00
+Epoch 72/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9952 - val_accuracy: 0.0000e+00
+Epoch 73/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6614 - accuracy: 0.6250 - val_loss: 0.9733 - val_accuracy: 0.0000e+00
+Epoch 74/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9683 - val_accuracy: 0.0000e+00
+Epoch 75/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9958 - val_accuracy: 0.0000e+00
+Epoch 76/100
+318/318 [==============================] - 4s 12ms/step - loss: 0.6639 - accuracy: 0.6250 - val_loss: 0.9959 - val_accuracy: 0.0000e+00
+Epoch 77/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6628 - accuracy: 0.6249 - val_loss: 0.9968 - val_accuracy: 0.0000e+00
+Epoch 78/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 1.0224 - val_accuracy: 0.0000e+00
+Epoch 79/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9757 - val_accuracy: 0.0000e+00
+Epoch 80/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 1.0123 - val_accuracy: 0.0000e+00
+Epoch 81/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6614 - accuracy: 0.6250 - val_loss: 0.9595 - val_accuracy: 0.0000e+00
+Epoch 82/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9975 - val_accuracy: 0.0000e+00
+Epoch 83/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9622 - val_accuracy: 0.0000e+00
+Epoch 84/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6620 - accuracy: 0.6250 - val_loss: 0.9680 - val_accuracy: 0.0000e+00
+Epoch 85/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9918 - val_accuracy: 0.0000e+00
+Epoch 86/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 1.0261 - val_accuracy: 0.0000e+00
+Epoch 87/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6619 - accuracy: 0.6250 - val_loss: 0.9731 - val_accuracy: 0.0000e+00
+Epoch 88/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9777 - val_accuracy: 0.0000e+00
+Epoch 89/100
+318/318 [==============================] - 1s 5ms/step - loss: 0.6615 - accuracy: 0.6250 - val_loss: 0.9766 - val_accuracy: 0.0000e+00
+Epoch 90/100
+318/318 [==============================] - 2s 5ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9628 - val_accuracy: 0.0000e+00
+Epoch 91/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9684 - val_accuracy: 0.0000e+00
+Epoch 92/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9934 - val_accuracy: 0.0000e+00
+Epoch 93/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9454 - val_accuracy: 0.0000e+00
+Epoch 94/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9822 - val_accuracy: 0.0000e+00
+Epoch 95/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9756 - val_accuracy: 0.0000e+00
+Epoch 96/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9823 - val_accuracy: 0.0000e+00
+Epoch 97/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6617 - accuracy: 0.6250 - val_loss: 0.9926 - val_accuracy: 0.0000e+00
+Epoch 98/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 0.9644 - val_accuracy: 0.0000e+00
+Epoch 99/100
+318/318 [==============================] - 1s 3ms/step - loss: 0.6618 - accuracy: 0.6250 - val_loss: 0.9471 - val_accuracy: 0.0000e+00
+Epoch 100/100
+318/318 [==============================] - 1s 4ms/step - loss: 0.6616 - accuracy: 0.6250 - val_loss: 1.0121 - val_accuracy: 0.0000e+00
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="se8_orFX1eqW" data-outputId="eab98bfc-a5df-4c07-a87e-f1f2bc68083b">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluating the final model on the test set</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>final_loss, final_accuracy <span class="op">=</span> final_model.evaluate(X_test, y_test)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Final Test Accuracy: </span><span class="sc">{</span>final_accuracy<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Final Test Loss: </span><span class="sc">{</span>final_loss<span class="sc">:.4f}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>63/63 [==============================] - 0s 3ms/step - loss: 0.5616 - accuracy: 0.8035
+Final Test Accuracy: 0.8035
+Final Test Loss: 0.5616
+</code></pre>
+</div>
+</div>
+<section id="actionable-insights-and-recommendations"
+class="cell markdown" id="XE1iHOqqOEmV">
+<h2>Actionable Insights and Recommendations</h2>
+</section>
+<div class="cell markdown" id="M6gyNHDPotnr">
+<p><strong>What recommedations would you suggest to the
+bank?</strong></p>
+</div>
+<div class="cell markdown" id="ZfhTJWCWo5PT">
+<p>Focus on Older Customers: The bank should create special offers for
+older customers since they are more likely to leave.</p>
+<p>For Women: Bank should explore what might be causing this and offer
+services that better meet their needs</p>
+<p>Attention to Specific Regions: Customers in certain areas (ex:
+Germany)are leaving more often. Bank should look into why this is
+happening in specific regions.</p>
+<p>Engage Inactive Customers: Customers who don't use the bank's
+services actively are more likely to leave. The bank could create
+programs or incentives to keep these customers more engaged</p>
+</div>
+<div class="cell markdown" id="m-98WoMDoxdQ">
+<hr />
+</div>
+</body>
+</html>
